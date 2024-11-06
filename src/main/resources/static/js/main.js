@@ -415,7 +415,7 @@ function logOut() {
   }
   localStorage.setItem("accounts", JSON.stringify(accounts));
   localStorage.removeItem("currentuser");
-  window.location = "/";
+  window.location = "/index";
 }
 
 // Chuyển đổi trang chủ và trang thông tin tài khoản

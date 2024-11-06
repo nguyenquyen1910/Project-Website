@@ -275,7 +275,7 @@ $(document).ready(function() {
         localStorage.removeItem("currentuser");
     
         // Chuyển hướng về trang chủ
-        window.location = "/";
+        window.location = "/index";
       }
 });
 function emailIsValid(email) {
